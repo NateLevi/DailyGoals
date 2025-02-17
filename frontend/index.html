@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Website to watch daily football videos from the five major leagues in the">
+    <meta name="keywords" content="">
+    <title>Football Daily Highlights</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Football Daily Highlights</h1>
+    <div id="container">
+      <h2>The Big Five</h2>
+      <label for="football-leagues">Select a Football League:</label>
+      <select id="football-leagues" name="football-leagues">
+        <option value="premier-league">Premier League</option>
+        <option value="bundesliga">Bundesliga</option>
+        <option value="la-liga">La Liga</option>
+        <option value="serie-a">Serie A</option>
+        <option value="ligue-1">Ligue 1</option>
+      </select>
+      <form action="/submit">
+        <button type="button" name="button">Search</button>
+      </form>
+      <section>
+        <iframe src="" frameborder="0"></iframe>
+      </section>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

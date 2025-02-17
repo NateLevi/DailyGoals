@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url('./ballBackground.jpg');
+  background-size: cover;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+  text-align: center;
+}
+button{
+  width: 155px;
+  height: 35px;
+  font-size: 15px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+iframe{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+#container{
+  font-size: 25px;
+  margin-left: 50px;
+
+}
+p{
+  font-size: 30px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
